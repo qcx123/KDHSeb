@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A0D0C325DE2E6400285531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0C225DE2E6400285531 /* AppDelegate.m */; };
+		44A0D0C625DE2E6400285531 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0C525DE2E6400285531 /* SceneDelegate.m */; };
+		44A0D0C925DE2E6400285531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0C825DE2E6400285531 /* ViewController.m */; };
+		44A0D0CC25DE2E6400285531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0D0CA25DE2E6400285531 /* Main.storyboard */; };
+		44A0D0CE25DE2E6500285531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A0D0CD25DE2E6500285531 /* Assets.xcassets */; };
+		44A0D0D125DE2E6500285531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0D0CF25DE2E6500285531 /* LaunchScreen.storyboard */; };
+		44A0D0D425DE2E6500285531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0D325DE2E6500285531 /* main.m */; };
+		44A0D0DE25DE2E6600285531 /* EmayLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0DD25DE2E6600285531 /* EmayLoginTests.m */; };
+		44A0D0E925DE2E6600285531 /* EmayLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0D0E825DE2E6600285531 /* EmayLoginUITests.m */; };
+		44A0D10625DE2EAC00285531 /* UniLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A0D0FB25DE2EAC00285531 /* UniLogin.framework */; };
+		44A0D10725DE2EAC00285531 /* TYRZResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44A0D0FD25DE2EAC00285531 /* TYRZResource.bundle */; };
+		44A0D10825DE2EAC00285531 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44A0D0FE25DE2EAC00285531 /* EAccountOpenPageResource.bundle */; };
+		44A0D10925DE2EAC00285531 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A0D10125DE2EAC00285531 /* EAccountHYSDK.framework */; };
+		44A0D10A25DE2EAC00285531 /* TYRZUISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A0D10325DE2EAC00285531 /* TYRZUISDK.framework */; };
+		44A0D10B25DE2EAC00285531 /* OAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A0D10525DE2EAC00285531 /* OAuth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A0D0DA25DE2E6600285531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0D0B625DE2E6400285531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0D0BD25DE2E6400285531;
+			remoteInfo = EmayLogin;
+		};
+		44A0D0E525DE2E6600285531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0D0B625DE2E6400285531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0D0BD25DE2E6400285531;
+			remoteInfo = EmayLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A0D0BE25DE2E6400285531 /* EmayLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmayLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0D0C125DE2E6400285531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44A0D0C225DE2E6400285531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44A0D0C425DE2E6400285531 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		44A0D0C525DE2E6400285531 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		44A0D0C725DE2E6400285531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44A0D0C825DE2E6400285531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44A0D0CB25DE2E6400285531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A0D0CD25DE2E6500285531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A0D0D025DE2E6500285531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44A0D0D225DE2E6500285531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0D0D325DE2E6500285531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44A0D0D925DE2E6600285531 /* EmayLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmayLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0D0DD25DE2E6600285531 /* EmayLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmayLoginTests.m; sourceTree = "<group>"; };
+		44A0D0DF25DE2E6600285531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0D0E425DE2E6600285531 /* EmayLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmayLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0D0E825DE2E6600285531 /* EmayLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmayLoginUITests.m; sourceTree = "<group>"; };
+		44A0D0EA25DE2E6600285531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0D0FB25DE2EAC00285531 /* UniLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UniLogin.framework; sourceTree = "<group>"; };
+		44A0D0FD25DE2EAC00285531 /* TYRZResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TYRZResource.bundle; sourceTree = "<group>"; };
+		44A0D0FE25DE2EAC00285531 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
+		44A0D10125DE2EAC00285531 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountHYSDK.framework; sourceTree = "<group>"; };
+		44A0D10325DE2EAC00285531 /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZUISDK.framework; sourceTree = "<group>"; };
+		44A0D10525DE2EAC00285531 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A0D0BB25DE2E6400285531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0D10B25DE2EAC00285531 /* OAuth.framework in Frameworks */,
+				44A0D10925DE2EAC00285531 /* EAccountHYSDK.framework in Frameworks */,
+				44A0D10A25DE2EAC00285531 /* TYRZUISDK.framework in Frameworks */,
+				44A0D10625DE2EAC00285531 /* UniLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0D625DE2E6600285531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0E125DE2E6600285531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A0D0B525DE2E6400285531 = {
+			isa = PBXGroup;
+			children = (
+				44A0D0C025DE2E6400285531 /* EmayLogin */,
+				44A0D0DC25DE2E6600285531 /* EmayLoginTests */,
+				44A0D0E725DE2E6600285531 /* EmayLoginUITests */,
+				44A0D0BF25DE2E6400285531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A0D0BF25DE2E6400285531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0BE25DE2E6400285531 /* EmayLogin.app */,
+				44A0D0D925DE2E6600285531 /* EmayLoginTests.xctest */,
+				44A0D0E425DE2E6600285531 /* EmayLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A0D0C025DE2E6400285531 /* EmayLogin */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0F925DE2EAC00285531 /* EmayLoginSDK */,
+				44A0D0C125DE2E6400285531 /* AppDelegate.h */,
+				44A0D0C225DE2E6400285531 /* AppDelegate.m */,
+				44A0D0C425DE2E6400285531 /* SceneDelegate.h */,
+				44A0D0C525DE2E6400285531 /* SceneDelegate.m */,
+				44A0D0C725DE2E6400285531 /* ViewController.h */,
+				44A0D0C825DE2E6400285531 /* ViewController.m */,
+				44A0D0CA25DE2E6400285531 /* Main.storyboard */,
+				44A0D0CD25DE2E6500285531 /* Assets.xcassets */,
+				44A0D0CF25DE2E6500285531 /* LaunchScreen.storyboard */,
+				44A0D0D225DE2E6500285531 /* Info.plist */,
+				44A0D0D325DE2E6500285531 /* main.m */,
+			);
+			path = EmayLogin;
+			sourceTree = "<group>";
+		};
+		44A0D0DC25DE2E6600285531 /* EmayLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0DD25DE2E6600285531 /* EmayLoginTests.m */,
+				44A0D0DF25DE2E6600285531 /* Info.plist */,
+			);
+			path = EmayLoginTests;
+			sourceTree = "<group>";
+		};
+		44A0D0E725DE2E6600285531 /* EmayLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0E825DE2E6600285531 /* EmayLoginUITests.m */,
+				44A0D0EA25DE2E6600285531 /* Info.plist */,
+			);
+			path = EmayLoginUITests;
+			sourceTree = "<group>";
+		};
+		44A0D0F925DE2EAC00285531 /* EmayLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0FA25DE2EAC00285531 /* UniLogin */,
+				44A0D0FC25DE2EAC00285531 /* Resources */,
+				44A0D0FF25DE2EAC00285531 /* ThirdPartyLibs */,
+			);
+			path = EmayLoginSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		44A0D0FA25DE2EAC00285531 /* UniLogin */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0FB25DE2EAC00285531 /* UniLogin.framework */,
+			);
+			path = UniLogin;
+			sourceTree = "<group>";
+		};
+		44A0D0FC25DE2EAC00285531 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D0FD25DE2EAC00285531 /* TYRZResource.bundle */,
+				44A0D0FE25DE2EAC00285531 /* EAccountOpenPageResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44A0D0FF25DE2EAC00285531 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D10025DE2EAC00285531 /* chinaTelecom */,
+				44A0D10225DE2EAC00285531 /* cmcc */,
+				44A0D10425DE2EAC00285531 /* chinaunicom */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		44A0D10025DE2EAC00285531 /* chinaTelecom */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D10125DE2EAC00285531 /* EAccountHYSDK.framework */,
+			);
+			path = chinaTelecom;
+			sourceTree = "<group>";
+		};
+		44A0D10225DE2EAC00285531 /* cmcc */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D10325DE2EAC00285531 /* TYRZUISDK.framework */,
+			);
+			path = cmcc;
+			sourceTree = "<group>";
+		};
+		44A0D10425DE2EAC00285531 /* chinaunicom */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D10525DE2EAC00285531 /* OAuth.framework */,
+			);
+			path = chinaunicom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A0D0BD25DE2E6400285531 /* EmayLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0D0ED25DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLogin" */;
+			buildPhases = (
+				44A0D0BA25DE2E6400285531 /* Sources */,
+				44A0D0BB25DE2E6400285531 /* Frameworks */,
+				44A0D0BC25DE2E6400285531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmayLogin;
+			productName = EmayLogin;
+			productReference = 44A0D0BE25DE2E6400285531 /* EmayLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A0D0D825DE2E6600285531 /* EmayLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0D0F025DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLoginTests" */;
+			buildPhases = (
+				44A0D0D525DE2E6600285531 /* Sources */,
+				44A0D0D625DE2E6600285531 /* Frameworks */,
+				44A0D0D725DE2E6600285531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0D0DB25DE2E6600285531 /* PBXTargetDependency */,
+			);
+			name = EmayLoginTests;
+			productName = EmayLoginTests;
+			productReference = 44A0D0D925DE2E6600285531 /* EmayLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A0D0E325DE2E6600285531 /* EmayLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0D0F325DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLoginUITests" */;
+			buildPhases = (
+				44A0D0E025DE2E6600285531 /* Sources */,
+				44A0D0E125DE2E6600285531 /* Frameworks */,
+				44A0D0E225DE2E6600285531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0D0E625DE2E6600285531 /* PBXTargetDependency */,
+			);
+			name = EmayLoginUITests;
+			productName = EmayLoginUITests;
+			productReference = 44A0D0E425DE2E6600285531 /* EmayLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A0D0B625DE2E6400285531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44A0D0BD25DE2E6400285531 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44A0D0D825DE2E6600285531 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44A0D0BD25DE2E6400285531;
+					};
+					44A0D0E325DE2E6600285531 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44A0D0BD25DE2E6400285531;
+					};
+				};
+			};
+			buildConfigurationList = 44A0D0B925DE2E6400285531 /* Build configuration list for PBXProject "EmayLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A0D0B525DE2E6400285531;
+			productRefGroup = 44A0D0BF25DE2E6400285531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A0D0BD25DE2E6400285531 /* EmayLogin */,
+				44A0D0D825DE2E6600285531 /* EmayLoginTests */,
+				44A0D0E325DE2E6600285531 /* EmayLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A0D0BC25DE2E6400285531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0D10725DE2EAC00285531 /* TYRZResource.bundle in Resources */,
+				44A0D10825DE2EAC00285531 /* EAccountOpenPageResource.bundle in Resources */,
+				44A0D0D125DE2E6500285531 /* LaunchScreen.storyboard in Resources */,
+				44A0D0CE25DE2E6500285531 /* Assets.xcassets in Resources */,
+				44A0D0CC25DE2E6400285531 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0D725DE2E6600285531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0E225DE2E6600285531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A0D0BA25DE2E6400285531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0D0C925DE2E6400285531 /* ViewController.m in Sources */,
+				44A0D0C325DE2E6400285531 /* AppDelegate.m in Sources */,
+				44A0D0D425DE2E6500285531 /* main.m in Sources */,
+				44A0D0C625DE2E6400285531 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0D525DE2E6600285531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0D0DE25DE2E6600285531 /* EmayLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0D0E025DE2E6600285531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0D0E925DE2E6600285531 /* EmayLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A0D0DB25DE2E6600285531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0D0BD25DE2E6400285531 /* EmayLogin */;
+			targetProxy = 44A0D0DA25DE2E6600285531 /* PBXContainerItemProxy */;
+		};
+		44A0D0E625DE2E6600285531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0D0BD25DE2E6400285531 /* EmayLogin */;
+			targetProxy = 44A0D0E525DE2E6600285531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A0D0CA25DE2E6400285531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0D0CB25DE2E6400285531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A0D0CF25DE2E6500285531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0D0D025DE2E6500285531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A0D0EB25DE2E6600285531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44A0D0EC25DE2E6600285531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A0D0EE25DE2E6600285531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmayLoginSDK/UniLogin",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/chinaTelecom",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/cmcc",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/chinaunicom",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/EmayLoginSDK/UniLogin/UniLogin.framework\"";
+				INFOPLIST_FILE = EmayLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44A0D0EF25DE2E6600285531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmayLoginSDK/UniLogin",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/chinaTelecom",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/cmcc",
+					"$(PROJECT_DIR)/EmayLoginSDK/ThirdPartyLibs/chinaunicom",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/EmayLoginSDK/UniLogin/UniLogin.framework\"";
+				INFOPLIST_FILE = EmayLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44A0D0F125DE2E6600285531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmayLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmayLogin.app/EmayLogin";
+			};
+			name = Debug;
+		};
+		44A0D0F225DE2E6600285531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmayLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmayLogin.app/EmayLogin";
+			};
+			name = Release;
+		};
+		44A0D0F425DE2E6600285531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmayLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmayLogin;
+			};
+			name = Debug;
+		};
+		44A0D0F525DE2E6600285531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmayLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qcx.EmayLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmayLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A0D0B925DE2E6400285531 /* Build configuration list for PBXProject "EmayLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0D0EB25DE2E6600285531 /* Debug */,
+				44A0D0EC25DE2E6600285531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0D0ED25DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0D0EE25DE2E6600285531 /* Debug */,
+				44A0D0EF25DE2E6600285531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0D0F025DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0D0F125DE2E6600285531 /* Debug */,
+				44A0D0F225DE2E6600285531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0D0F325DE2E6600285531 /* Build configuration list for PBXNativeTarget "EmayLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0D0F425DE2E6600285531 /* Debug */,
+				44A0D0F525DE2E6600285531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A0D0B625DE2E6400285531 /* Project object */;
+}
