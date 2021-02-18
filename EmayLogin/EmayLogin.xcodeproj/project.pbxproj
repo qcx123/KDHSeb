@@ -66,6 +66,7 @@
 		44A0D10125DE2EAC00285531 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountHYSDK.framework; sourceTree = "<group>"; };
 		44A0D10325DE2EAC00285531 /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZUISDK.framework; sourceTree = "<group>"; };
 		44A0D10525DE2EAC00285531 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
+		44A0D11225DE306800285531 /* UniLoginHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniLoginHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +158,7 @@
 		44A0D0F925DE2EAC00285531 /* EmayLoginSDK */ = {
 			isa = PBXGroup;
 			children = (
+				44A0D11225DE306800285531 /* UniLoginHeader.h */,
 				44A0D0FA25DE2EAC00285531 /* UniLogin */,
 				44A0D0FC25DE2EAC00285531 /* Resources */,
 				44A0D0FF25DE2EAC00285531 /* ThirdPartyLibs */,
